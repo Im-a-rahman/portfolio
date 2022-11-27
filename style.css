@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@500&family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Serif:opsz@8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Anek Devanagari', sans-serif;
+font-family: 'Roboto Serif', serif; */
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Roboto Serif', serif; */
+/* font-family: 'Pacifico', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    width: 10vw;
+    height: 100vh;
+    font-family: 'Roboto Serif', serif;
+    /* font-family: 'Abril Fatface', cursive; */
+
+}
+
+.sidebar nav {
+    padding: 18px;
+}
+
+.sidebar img {
+    height: 120px;
+    width: 150px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 17px;
+    padding: 20px 10px;
+}
+
+.main {
+    background-color: rgb(168, 74, 91);
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; default */
+}
+
+.info-container {
+    background-color: rgb(168, 74, 91);
+    height: 70vh;
+    width: 80vw;
+    margin-top: 100px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.dev-pic img {
+    height: 70vh;
+}
+
+.dev-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    padding: 10px;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.name {
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.about {
+    font-size: 35px;
+
+}
+
+.moreabout {
+    font-size: 20px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.buttons {
+    padding: 10px 5px;
+}
+
+.buttons button {
+    background-color: grey;
+    border-radius: 13px;
+    padding: 3px 10px;
+    font-family: 'Pacifico', cursive;
+    color: black
+}
+
+.buttons button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
