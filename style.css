@@ -15,7 +15,7 @@ font-family: 'Roboto Serif', serif; */
 .sidebar {
     background-color: black;
     color: white;
-    width: 10vw;
+    width: 430px;
     height: 100vh;
     font-family: 'Roboto Serif', serif;
     /* font-family: 'Abril Fatface', cursive; */
@@ -36,10 +36,14 @@ font-family: 'Roboto Serif', serif; */
     font-size: 17px;
     padding: 20px 10px;
 }
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
 
 .main {
     background-color: rgb(168, 74, 91);
-    width: 90vw;
+    width: 85vw;
 }
 
 .container {
@@ -107,5 +111,5 @@ font-family: 'Roboto Serif', serif; */
 }
 .social-icons{
     margin-top: 20px;
-    margin-left:70vw;
+    margin-left:65vw;
 }
