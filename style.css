@@ -110,6 +110,14 @@ font-family: 'Roboto Serif', serif; */
     color: black;
 }
 .social-icons{
-    margin-top: 20px;
-    margin-left:65vw;
+    margin: 20px 10px 0 70vw;
+    width: 270px;
+}
+.submit-button{
+    padding: 3px;
+    border-radius: 8px;
+}
+.submit-button:hover{
+    background-color: grey;
+    color: black;
 }
